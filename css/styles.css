@@ -11,13 +11,22 @@ body {
 
 }
 .logo{
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
     color: blue;
 }
 .logo-studio{
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
     color: black;
     }
 .btn-menu{
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -28,7 +37,6 @@ body {
 
 .adress-contakt{
     
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -37,8 +45,6 @@ body {
 }
 .adress-contakt:hover,:focus{color: var(--hover-effect-color);}
 .hero-text{
-    
-    font-style: normal;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -50,21 +56,20 @@ body {
 }
 .hero-button{
     font-family: Roboto;
-    font-style: normal;
-    font-weight: bold;
+    font-weight: 700;
     font-size: 16px;
     line-height:1.85;
     display: flex;
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
+    cursor: pointer;
     color: var(--adress-color);
     background-color: var(--hover-effect-color);
 }
 .advantage-title{
     font-family: Roboto;
-    font-style: normal;
-    font-weight: bold;
+    font-weight: 700;
     font-size: 14px;
     line-height: 1.42;
     letter-spacing: 0.03em;
@@ -73,16 +78,13 @@ body {
 }
 .advantage-text{
     font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: var(--secondary-title-color);
 }
 .prezent{
-    font-style: normal;
-    font-weight: bold;
+    font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
     text-align: center;
@@ -93,8 +95,7 @@ body {
 /*comand*/
 .comand{
     font-family: Roboto;
-    font-style: normal;
-    font-weight: bold;
+    font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
     text-align: center;
@@ -111,8 +112,6 @@ body {
 
 }
 .comand-proffession{
-    font-style: normal;
-    font-weight: normal;
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
@@ -120,8 +119,6 @@ body {
     color: var(--secondary-title-color);
 }
 .adress{
-    font-style: normal;
-    font-weight: normal;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -130,12 +127,12 @@ body {
 /*page2-portfolio*/
 .btn-menu-portfolio{
     font-family: Roboto;
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
     text-align: center;
     letter-spacing: 0.03em;
+    cursor: pointer;
     color: var(--primary-title-color);
     background-color: #F5F4FA;
  
@@ -144,19 +141,16 @@ body {
     color: var(--adress-color);
     background-color: var(--hover-effect-color);
 }
-.presentation{
+.gallery-job {
     font-family: Roboto;
-    font-style: normal;
-    font-weight: bold;
+    font-weight: 700;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
     color: var(--primary-title-color);
 }
-.galary-menu{
+.gallery-menu {
     font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.03em;
