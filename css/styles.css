@@ -2,12 +2,14 @@ body {
     color: #212121;
     font-family: 'Roboto', sans-serif;
     letter-spacing: 0.03em;
+    
 }
 :root{
     --primary-title-color: #212121;
     --secondary-title-color: #757575;
     --adress-color: #ffffff;
     --hover-effect-color: #2196F3;
+    --futer-color: #2F303A;
 
 }
 .logo{
@@ -27,6 +29,7 @@ body {
     color: black;
     }
 .btn-menu{
+    
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -52,7 +55,7 @@ body {
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: var(--adress-color);
-    background-color: #757575;
+    background-color:var(--futer-color);
 }
 .hero-button{
     font-family: Roboto;
@@ -123,6 +126,9 @@ body {
     line-height: 1.71;
     letter-spacing: 0.03em;
     columns: var(--adress-color);
+}
+.footer{
+    background-color: var(--futer-color);
 }
 /*page2-portfolio*/
 .btn-menu-portfolio{
