@@ -52,6 +52,10 @@ body {
     color: var(--secondary-title-color);
 }
 .adress-contakt:hover,:focus{color: var(--hover-effect-color);}
+.hero{
+    background-color: var(--futer-color);
+
+}
 .hero-text{
     font-weight: 900;
     font-size: 44px;
@@ -59,8 +63,8 @@ body {
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    color: var(--adress-color);
-    background-color:var(--futer-color);
+    color: var(--adress-color)
+    
 }
 .hero-button{
     font-family: Roboto;
