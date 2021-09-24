@@ -30,8 +30,19 @@ body {
     letter-spacing: 0.03em;
     color: black;
     }
+    .logo-studio-footer{
+      font-family: Raleway;
+      font-weight: 700;
+      font-size: 26px;
+      line-height: 1.19;
+      letter-spacing: 0.03em;
+      color:var(--adress-color)    }
     .ul{
         list-style: none;
+        text-decoration: none;
+    }
+    .ul a{
+       list-style-type: none;
     }
 .btn-menu{
     
@@ -131,13 +142,22 @@ body {
     color: var(--secondary-title-color);
 }
 .adress{
+    font-style: normal;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
+    
     columns: var(--adress-color);
+}
+.adress-contakt{
+    font-style: normal;
+    text-decoration: none;
+    list-style: none;
 }
 .footer{
     background-color: var(--futer-color);
+    font-style: normal;
+    list-style-type: none;
 }
 /*page2-portfolio*/
 .btn-menu-portfolio{
